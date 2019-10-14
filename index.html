@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>N.CHETAN CHANDRA SAI REDDY</title>
+</head>
+
+<body onload="loaded()">
+
+    <div id="loader">
+        <img src="loading.gif" alt="">
+    </div>
+
+    <div id="menu" class="menu" onclick="x()">
+        <div class="icon">
+            <span id="one" class="span"></span>
+            <span id="two" class="span"></span>
+            <span id="three" class="span"></span>
+        </div>
+        <div id="follow" class="follow">
+            <h3>FOLLOW ME ON:</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/feed/chetan-n"><i class="fa fa-linkedin-square" style="font-size:24px"></i> LINKED IN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="profile">
+            <section id="profilepic">profile pic</section>
+            <h1>N.CHETAN CHANDRA SAI REDDY</h1>
+        </div>
+
+        <div class="container">
+
+
+            <section class="part">
+                <div class="part2">
+                    <h2>MY ACADAMICS</h2>
+                </div>
+                <h3>ACADAMICS</h3>
+                <p>1. <b>SCHOOL : </b>ST JOSEPH PUBLIC SCHOOL(1 - 8) .</p>
+                <p>2. <b>SCHOOL : </b>VISHWA BHARATHI E.M HIGH SCHOOL(9, 10) .</p>
+                <P>3. <b>INTERMEDIATE : </b>SRI CHAITHANYA COLLEGE .</P>
+                <P>4. <b>B-TECH : </b>JNTU COLLEGE OF ENGINEERING PULIVENDULA .</P>
+                <p>(COMPUTER SCIENCE STUDENT)</p>
+            </section>
+
+
+            <section class="part">
+                <div class="part2">
+                    <h2>MY HOBBIES</h2>
+                </div>
+                <h3>HOBBIES</h3>
+                <p>1. LISTENING TO SONGS</p>
+                <p>2. CODING</p>
+                <p>3. GAMING [DUET, SHADOW FIGHT-3, PUBG, COD]</p>
+                <P>4. MUSIC PRODUCING</P>
+                <P>5. THINKING</P>
+            </section>
+
+
+            <section class="part">
+                <div class="part2">
+                    <h2>PROGRAMMING LANGUAGES I KNOW</h2>
+                </div>
+                <h3>PROGRAMMING LANGUAGES I KNOW</h3>
+                <p>1. PYTHON LANGUAGE BASICS</p>
+                <P>2. HTML, CSS, JAVASCRIPT</P>
+                <P>3. PHP, MYSQL</P>
+                <P>4. REACT.JS</P>
+            </section>
+
+
+            <section class="part">
+                <div class="part2">
+                    <h2>MY PRESENT STATUS</h2>
+                </div>
+                <h3>PRESENT</h3>
+                <P>B-TECH 3RD YEAR AT JNTU COLLEGE OF ENGINEERING PULIVENDULA .</P>
+
+            </section>
+
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function loaded() {
+            document.getElementById('loader').style.display = 'none';
+            document.getElementById('main').style.display = 'block';
+        }
+
+        function x() {
+            $(menu).toggleClass('menu1');
+            $(menu).toggleClass('menu');
+            $(follow).toggleClass('follow2');
+            $(follow).toggleClass('follow');
+            $(one).toggleClass('one span2');
+            $(two).toggleClass('two span2');
+            $(three).toggleClass('three span2');
+        }
+    </script>
+</body>
+
+</html>
